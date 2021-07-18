@@ -1,0 +1,25 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmdVC013/realtime-chat-app.git"
+  },
+  "author": "bmdvc013",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmdVC013/realtime-chat-app/issues"
+  },
+  "homepage": "https://github.com/bmdVC013/realtime-chat-app#readme",
+  "dependencies": {
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
